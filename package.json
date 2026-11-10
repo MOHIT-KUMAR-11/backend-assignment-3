@@ -1,0 +1,22 @@
+{
+  "name": "inventory-data-management-system",
+  "version": "1.0.0",
+  "description": "Lab 3 - Inventory and Data Management System: RESTful backend with Node.js, Express.js, MongoDB (Mongoose) and dotenv",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node scripts/seed.js",
+    "test": "node --test tests/api.test.js"
+  },
+  "keywords": ["inventory", "express", "mongodb", "mongoose", "rest-api"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.9.0"
+  }
+}
